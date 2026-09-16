@@ -1,44 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>playlist</title>
-    <style></style>
-    <meta name="description" content="lightweight html audio widget">
-  </head>
-  <body>
-    <table>
-      <thead>
-        <tr>
-          <th>title</th>
-          <th>mp3 url</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <input type="text">
-          </td>
-          <td>
-            <input type="url">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <input type="text">
-          </td>
-          <td>
-            <input type="url">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <input type="text">
-          </td>
-          <td>
-            <input type="url">
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
+	<head>
+		<title>playlist</title>
+		<style>
+        body {
+          color: #888888;
+          background-color: #333333
+          }
+        input {
+          background-color: #666666
+          }
+        </style>
+		<meta name="description" content="lightweight html audio widget">
+	</head>
+	<body>
+    <fieldset>
+      <legend>playlist</legend>
+      <form action="">
+        <input placeholder="title" name="title" type="text" oninput="">
+        <input placeholder="mp3 url" name="file" type="url" oninput="">
+        <br>
+        <input placeholder="title" name="title" type="text" oninput="">
+        <input placeholder="mp3 url" name="file" type="url" oninput="">
+        <br>
+      </form>
+    </fieldset>
+	</body>
 </html>
